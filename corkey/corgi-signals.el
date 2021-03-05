@@ -50,6 +50,10 @@
                  :sexp/forward clojure-forward-logical-sexp
                  :sexp/backward clojure-backward-logical-sexp
 
+                 :repl/connect cider-connect
+                 :repl/jack-in ("Jack-in Clojure" cider-jack-in-clj)
+                 :repl/jack-in-other ("Jack in ClojureScript" cider-jack-in-clj)
+                 :repl/jack-in-all ("Jack in Clj+Cljs" cider-jack-in-clj&cljs)
 
                  :refactor/thread-first clojure-thread-first-all
                  :refactor/thread-last clojure-thread-last-all
